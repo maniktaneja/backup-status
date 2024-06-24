@@ -3,6 +3,7 @@ Query the status for a backup job run on Cohesity data protect platform
 
 # Sample execution 
 
+```
 ./main -ip <server ip>
 Protection Group ID: 3485765478180964:1713336937273:24063, Name: failed-test-1
   Message: Encountered 2 backup errors
@@ -18,3 +19,4 @@ Protection Group ID: 3485765478180964:1713336937273:24605, Name: failed-test-6
   Message: Encountered 2 backup errors
 Protection Group ID: 3485765478180964:1713336937273:28017, Name: backup-test-skipped
   Message: Number of files skipped due to errors 4
+```
